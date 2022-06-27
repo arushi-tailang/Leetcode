@@ -5,11 +5,11 @@ public:
        int fast = nums[0];
 
        do {
-           slow= nums[slow]; //moving by index of 1
+           slow = nums[slow]; //moving by index of 1
            fast = nums[nums[fast]]; //moving by the index of 2 
        } while (slow != fast);
 
-       fast=nums[0];
+       fast = nums[0];
 
        while (slow!=fast){
           slow = nums[slow]; //moving with the index of 1
