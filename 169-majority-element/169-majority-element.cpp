@@ -4,7 +4,7 @@ public:
        int count = 0;
        int el = 0;
         
-        for(int val:nums){
+        for(int val:nums){ //for(i=0;i<=nums.size();i++) int val=nums[i];
         if(count==0) el=val;
         if(el==val){
             count+=1;
