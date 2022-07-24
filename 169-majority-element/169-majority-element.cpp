@@ -4,9 +4,9 @@ public:
        int count = 0;
        int el = 0;
         
-        for(int num:nums){
-        if(count==0) el=num;
-        if(el==num){
+        for(int val:nums){
+        if(count==0) el=val;
+        if(el==val){
             count+=1;
         }else
             count-=1;
